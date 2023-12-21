@@ -1,0 +1,52 @@
+
+.container{
+    text-align: center;
+    background-color: rgb(245, 203, 150);
+    max-height: 100%;
+    h2{
+        font-size: 50px;
+    }
+    input{
+        width: 400px;
+        cursor: pointer;
+        height: 50px;
+        border-radius: 20px;
+        border: none;
+        padding: 2px 14px;
+    }
+    table {
+        width: 800px;
+        
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+    td{
+        height: 50px;
+        background-color: white;
+        font-size: 25px;
+    }
+    th{
+        font-size: 25px;
+
+        background-color: white;
+    }
+    button{
+        cursor: pointer;
+         padding: 3px 9px;
+         border: none;
+         background-color: rgb(255, 183, 89);
+         margin-left: 20px;
+         border-radius: 5px;
+         font-size: 20px;
+         color: white;
+         transition: 0.5s;
+    }
+    button:hover{
+        
+        background-color: rgb(202, 129, 40);
+    }
+    h3{
+        font-size: 30px;
+        
+    }
+}
